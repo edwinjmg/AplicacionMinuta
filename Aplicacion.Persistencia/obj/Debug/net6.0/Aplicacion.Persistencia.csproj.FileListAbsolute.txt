@@ -1,0 +1,17 @@
+D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.Persistencia\obj\Debug\net6.0\Aplicacion.Persistencia.csproj.AssemblyReference.cache
+D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.Persistencia\obj\Debug\net6.0\Aplicacion.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.Persistencia\obj\Debug\net6.0\Aplicacion.Persistencia.AssemblyInfoInputs.cache
+D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.Persistencia\obj\Debug\net6.0\Aplicacion.Persistencia.AssemblyInfo.cs
+D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.Persistencia\obj\Debug\net6.0\Aplicacion.Persistencia.csproj.CoreCompileInputs.cache
+D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.Persistencia\bin\Debug\net6.0\Aplicacion.Persistencia.deps.json
+D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.Persistencia\bin\Debug\net6.0\Aplicacion.Persistencia.runtimeconfig.json
+D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.Persistencia\bin\Debug\net6.0\Aplicacion.Persistencia.dll
+D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.Persistencia\bin\Debug\net6.0\Aplicacion.Persistencia.pdb
+D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.Persistencia\bin\Debug\net6.0\Aplicacion.Dominio.dll
+D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.Persistencia\bin\Debug\net6.0\Aplicacion.Dominio.pdb
+D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.Persistencia\obj\Debug\net6.0\Aplicacion.Persistencia.csproj.CopyComplete
+D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.Persistencia\obj\Debug\net6.0\Aplicacion.Persistencia.dll
+D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.Persistencia\obj\Debug\net6.0\refint\Aplicacion.Persistencia.dll
+D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.Persistencia\obj\Debug\net6.0\Aplicacion.Persistencia.pdb
+D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.Persistencia\obj\Debug\net6.0\Aplicacion.Persistencia.genruntimeconfig.cache
+D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.Persistencia\obj\Debug\net6.0\ref\Aplicacion.Persistencia.dll

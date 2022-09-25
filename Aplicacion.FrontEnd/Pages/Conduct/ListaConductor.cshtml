@@ -1,0 +1,38 @@
+﻿@page
+@model Aplicacion.FrontEnd.Pages.ListaConductorModel
+@{
+}
+<h1>Conductores</h1>
+
+<table class="table">
+    <th>
+            <td>Cedula</td>
+            <td>Nombre</td>
+            <td>Apellido</td>
+            <td>Celular</td>
+    </th>
+    @foreach (var item in Model.conduc)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Cedula</td>
+            <td>@item.Nombre</td>
+            <td>@item.Apellido</td>
+            <td>@item.Celular</td>
+            <td>
+                <a class="btn btn-outline-success" asp-page="./DetalleConductor" asp-route-ConductorId="@item.Id">
+                    <i class="fas fa-info-circle"></i>
+                    @* <i class="fa-brands fa-windows"></i> *@
+                </a>
+                <a class="btn btn-outline-success" asp-page="./EditarConductor" asp-route-ConductorId="@item.Id">
+                    <i class="fa-regular fa-pen-to-square"></i>
+                </a>
+            </td>
+            
+        </tr>
+    }
+</table>
+
+<a class="btn btn-primary" asp-page="./EditarConductor">
+    <i class="fa-regular fa-square-plus"></i>
+</a>

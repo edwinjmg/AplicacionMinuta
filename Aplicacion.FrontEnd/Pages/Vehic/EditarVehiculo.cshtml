@@ -1,0 +1,38 @@
+﻿@page
+@model Aplicacion.FrontEnd.Pages.EditarVehiculoModel
+@{
+}
+<h1>Crear</h1>
+<h2>Vehiculo</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                @* <label asp-for="VehiculoDetalle.Id" class="control-label"></label> *@
+                <input type= "hidden" asp-for="VehiculoDetalle.Id" class="form-control" />
+                @* <span asp-validation-for="VehiculoDetalle.Id" class="text-danger"></span> *@
+            </div>
+            <div class="form-group">
+                <label asp-for="VehiculoDetalle.Placa" class="control-label"></label>
+                <input asp-for="VehiculoDetalle.Placa" class="form-control" />
+                <span asp-validation-for="VehiculoDetalle.Placa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VehiculoDetalle.Modelo" class="control-label"></label>
+                <input asp-for="VehiculoDetalle.Modelo" class="form-control" />
+                <span asp-validation-for="VehiculoDetalle.Modelo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VehiculoDetalle.Color" class="control-label"></label>
+                <input asp-for="VehiculoDetalle.Color" class="form-control" />
+                <span asp-validation-for="VehiculoDetalle.Color" class="text-danger"></span>
+            </div>
+            <div><br></div>
+            <div class="form-group">
+                <input type="submit" value="Grabar" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>

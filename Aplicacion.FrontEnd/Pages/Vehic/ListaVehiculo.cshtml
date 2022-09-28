@@ -1,0 +1,34 @@
+﻿@page
+@model Aplicacion.FrontEnd.Pages.ListaVehiculoModel
+@{
+}
+<h1>Vehiculos</h1>
+<a class="btn btn-primary" asp-page="./EditarVehiculo">
+    <i class="fa-regular fa-square-plus">Agregar Vehiculo</i>
+</a>
+<table class="table">
+    <th>
+            <th>Placa</th>
+            <th>Modelo</th>
+            <th>Color</th>
+    </th>
+    @foreach (var item in Model.vehic)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Placa</td>
+            <td>@item.Modelo</td>
+            <td>@item.Color</td>
+            <td>
+                <a class="btn btn-outline-success" asp-page="./DetalleVehiculo" asp-route-VehiculoId="@item.Id">
+                    <i class="fas fa-info-circle"></i>
+                </a>
+                <a class="btn btn-outline-success" asp-page="./EditarVehiculo" asp-route-VehiculoId="@item.Id">
+                    <i class="fa-regular fa-pen-to-square"></i>
+                </a>
+                
+            </td>
+            
+        </tr>
+    }
+</table>

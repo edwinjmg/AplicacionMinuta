@@ -42,7 +42,8 @@ public class EditarConductorModel : PageModel
                 //repositorio.Add(saludoDetalle);
                 _repoConductor.AgregarConductor(ConductorDetalle);
             }
-            return Page();
+            
+            return RedirectToPage("./ListaConductor");
         }
     }
 }

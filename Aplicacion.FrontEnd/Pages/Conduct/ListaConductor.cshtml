@@ -3,13 +3,15 @@
 @{
 }
 <h1>Conductores</h1>
-
+<a class="btn btn-primary" asp-page="./EditarConductor">
+    <i class="fa-regular fa-square-plus">Agregar Conductor</i>
+</a>
 <table class="table">
     <th>
-            <td>Cedula</td>
-            <td>Nombre</td>
-            <td>Apellido</td>
-            <td>Celular</td>
+            <th>Cedula</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Celular</th>
     </th>
     @foreach (var item in Model.conduc)
     {
@@ -27,12 +29,9 @@
                 <a class="btn btn-outline-success" asp-page="./EditarConductor" asp-route-ConductorId="@item.Id">
                     <i class="fa-regular fa-pen-to-square"></i>
                 </a>
+                
             </td>
             
         </tr>
     }
 </table>
-
-<a class="btn btn-primary" asp-page="./EditarConductor">
-    <i class="fa-regular fa-square-plus"></i>
-</a>

@@ -17,7 +17,9 @@ a[b-msiura4uoy] {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
-
+body[b-msiura4uoy] {
+  background-image: url('./Camion.jpg');
+}
 .nav-pills .nav-link.active[b-msiura4uoy], .nav-pills .show > .nav-link[b-msiura4uoy] {
   color: #fff;
   background-color: #1b6ec2;

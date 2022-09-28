@@ -7,7 +7,7 @@ namespace Aplicacion.FrontEnd.Pages
 {
     public class DetalleConductorModel : PageModel
     {
-        private static Aplicacion.Persistencia.AppRepositorios.IRepositorioConductor _repoConductor = new Aplicacion.Persistencia.AppRepositorios.RepositorioConductor(new Aplicacion.Persistencia.AppRepositorios.appcontext());
+        private readonly Aplicacion.Persistencia.AppRepositorios.IRepositorioConductor _repoConductor = new Aplicacion.Persistencia.AppRepositorios.RepositorioConductor(new Aplicacion.Persistencia.AppRepositorios.appcontext());
         public Conductor ConductorDetalle { get; set; }
 
         public IActionResult OnGet(int conductorId)

@@ -1,3 +1,4 @@
+using System.Collections;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,6 +23,19 @@ namespace Aplicacion.Persistencia.AppRepositorios
         public IEnumerable<Conductor> MostrarConductores()
         {
             return appcox.Conductores;
+        }
+        public IEnumerable<Conductor> MostrarConductoresFiltro(string filtro)
+        {
+            var conduc=MostrarConductores();
+            if (conduc!=null)
+            {
+                if(!String.IsNullOrEmpty(filtro))
+                {
+                    conduc=conduc.Where(c=>c.Nombre.Contains(filtro));
+                }
+                
+            }
+            return conduc;
         }
         public Conductor MostrarConductor(int Id)
         {

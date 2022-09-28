@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Aplicacion.Persistencia.Migrations
 {
     [DbContext(typeof(appcontext))]
-    [Migration("20220922155029_Inicial")]
+    [Migration("20220927042409_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -46,6 +46,28 @@ namespace Aplicacion.Persistencia.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Conductores");
+                });
+
+            modelBuilder.Entity("Aplicacion.Dominio.Entidades.Vehiculo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Color")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Modelo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Placa")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Vehiculos");
                 });
 #pragma warning restore 612, 618
         }

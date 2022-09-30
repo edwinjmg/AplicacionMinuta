@@ -2,3 +2,22 @@
 @model Aplicacion.FrontEnd.Pages.DetalleProductoModel
 @{
 }
+<h2>Detalle Producto</h2>
+<div>
+    
+        <div>
+            Codigo: @Model.ProductoDetalle.Id
+        </div>
+        <div>
+            Nombre: @Model.ProductoDetalle.Nombre
+        </div>
+        <div>
+            Precio: @Model.ProductoDetalle.Precio
+        </div>
+        <div>
+             Cantidad: @Model.ProductoDetalle.Cantidad
+        </div>
+        
+ 
+</div>
+<div><a href="./ListaProducto">Menu Principal</a></div>

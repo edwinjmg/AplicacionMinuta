@@ -54,13 +54,13 @@ namespace Aplicacion.Persistencia.AppRepositorios
             appcox.SaveChanges();
             return ConductorModificado;
         }
-        public void EliminarConductor(int Id)
+       /*  public void EliminarConductor(int Id)
         {
             var ConductorEncontrado = appcox.Conductores.FirstOrDefault(a => a.Id == Id);
             if (ConductorEncontrado == null)
                 return;
             appcox.Conductores.Remove(ConductorEncontrado);
             appcox.SaveChanges();
-        }
+        } */
     }
 }

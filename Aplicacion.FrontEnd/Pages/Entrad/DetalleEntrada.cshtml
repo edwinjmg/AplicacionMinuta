@@ -1,0 +1,36 @@
+﻿@page
+@model Aplicacion.FrontEnd.Pages.DetalleEntradaModel
+@{
+}
+<h2>Detalle Entrada</h2>
+<div>
+    
+        <div>
+            Codigo: @Model.EntradaDetalle.Id
+        </div>
+        <div>
+            Fecha y Hora: @Model.EntradaDetalle.FechaHora
+        </div>
+        <div>
+            Modelo Vehiculo: @Model.EntradaDetalle.Vehiculo.Modelo
+        </div>
+        <div>
+            Placa Vehiculo: @Model.EntradaDetalle.Vehiculo.Placa
+        </div>
+        <div>
+            Color Vehiculo: @Model.EntradaDetalle.Vehiculo.Color
+        </div>
+        <div>
+            Cedula del Conductor: @Model.EntradaDetalle.Conductor.Cedula
+        <div>
+            Nombre del Conductor: @Model.EntradaDetalle.Conductor.Nombre @Model.EntradaDetalle.Conductor.Apellido
+        </div>
+        <div>
+            Celular del Conductor: @Model.EntradaDetalle.Conductor.Celular
+        </div>
+        <div>
+            Producto que Transporta: @Model.EntradaDetalle.Producto.Nombre 
+        </div>
+ 
+</div>
+<div><a href="./ListaEntrada">Menu Principal</a></div>

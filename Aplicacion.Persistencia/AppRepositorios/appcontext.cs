@@ -9,8 +9,12 @@ namespace Aplicacion.Persistencia.AppRepositorios
 {
     public class appcontext: DbContext
     {
-        public DbSet<Conductor> Conductores { get; set; }
+        public DbSet<Conductor> Conductores{get;set;}
         public DbSet<Vehiculo> Vehiculos{get;set;}
+        public DbSet<Producto> Productos{get;set;}
+        public DbSet<Entrada> Entradas{get;set;}
+        public DbSet<Salida> Salidas{get;set;}
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

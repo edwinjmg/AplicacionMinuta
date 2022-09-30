@@ -8,73 +8,97 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Aplicacion.FrontEnd
 build_property.RootNamespace = Aplicacion.FrontEnd
-build_property.ProjectDir = D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.FrontEnd\
+build_property.ProjectDir = D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.frontEnd\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.FrontEnd
+build_property.MSBuildProjectDirectory = D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.frontEnd
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.FrontEnd/Pages/Conduct/DetalleConductor.cshtml]
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Conduct/DetalleConductor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZHVjdFxEZXRhbGxlQ29uZHVjdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.FrontEnd/Pages/Conduct/EditarConductor.cshtml]
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Conduct/EditarConductor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZHVjdFxFZGl0YXJDb25kdWN0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.FrontEnd/Pages/Conduct/ListaConductor.cshtml]
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Conduct/ListaConductor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZHVjdFxMaXN0YUNvbmR1Y3Rvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.FrontEnd/Pages/Error.cshtml]
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Entrad/CrearEntrada.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50cmFkXENyZWFyRW50cmFkYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Entrad/DetalleEntrada.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50cmFkXERldGFsbGVFbnRyYWRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Entrad/ListaEntrada.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50cmFkXExpc3RhRW50cmFkYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.FrontEnd/Pages/Index.cshtml]
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.FrontEnd/Pages/Privacy.cshtml]
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.FrontEnd/Pages/Produc/DetalleProducto.cshtml]
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Produc/DetalleProducto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjXERldGFsbGVQcm9kdWN0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.FrontEnd/Pages/Produc/EditarProducto.cshtml]
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Produc/EditarProducto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjXEVkaXRhclByb2R1Y3RvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.FrontEnd/Pages/Produc/ListaProducto.cshtml]
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Produc/ListaProducto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjXExpc3RhUHJvZHVjdG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.FrontEnd/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Salid/CrearSalida.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsaWRcQ3JlYXJTYWxpZGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Salid/DetalleSalida.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsaWRcRGV0YWxsZVNhbGlkYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Salid/ListaSalida.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FsaWRcTGlzdGFTYWxpZGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.FrontEnd/Pages/Vehic/DetalleVehiculo.cshtml]
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Vehic/DetalleVehiculo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNcRGV0YWxsZVZlaGljdWxvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.FrontEnd/Pages/Vehic/EditarVehiculo.cshtml]
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Vehic/EditarVehiculo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNcRWRpdGFyVmVoaWN1bG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.FrontEnd/Pages/Vehic/ListaVehiculo.cshtml]
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Vehic/ListaVehiculo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNcTGlzdGFWZWhpY3Vsby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.FrontEnd/Pages/_ViewImports.cshtml]
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.FrontEnd/Pages/_ViewStart.cshtml]
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.FrontEnd/Pages/Shared/_Layout.cshtml]
+[D:/JAVIER/PROGRAMACION/CURSO MINTIC/Ciclo3/Programacion/Proyecto/Aplicacion/Aplicacion.frontEnd/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-msiura4uoy

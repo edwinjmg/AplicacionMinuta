@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A7yResS7nP1YMDqBDY/6CRDU71CSvjO11XIO++mRX37TFEk0ZZPywQnHdHuRyWcO869bMXoIEpWSDZxAzavFQQ==",
+  "dgSpecHash": "O/9b0neOnBo6SI9Ai4l4cr8GtF0UzKqpH15eWNVQZUH3nVjICtKiwP9GZP/xGsVsgwywod5P+bJm5mo3XyqWpQ==",
   "success": true,
-  "projectFilePath": "D:\\JAVIER\\PROGRAMACION\\CURSO MINTIC\\Ciclo3\\Programacion\\Proyecto\\Aplicacion\\Aplicacion.FrontEnd\\Aplicacion.FrontEnd.csproj",
+  "projectFilePath": "D:\\JAVIER\\PROGRAMACION\\CURSO MINTIC\\Ciclo3\\Programacion\\Proyecto\\Aplicacion\\Aplicacion.frontEnd\\Aplicacion.FrontEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ingenieria Medina\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Ingenieria Medina\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

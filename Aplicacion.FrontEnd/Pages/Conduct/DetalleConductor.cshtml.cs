@@ -15,7 +15,7 @@ namespace Aplicacion.FrontEnd.Pages
             ConductorDetalle = _repoConductor.MostrarConductor(conductorId); //repositorio.GetSaludoId(saludoID);
             if (ConductorDetalle == null)
             {
-                return RedirectToPage("./Lista");
+                return RedirectToPage("./ListaConductor");
             }
             else
                 return Page();

@@ -1,0 +1,36 @@
+﻿@page
+@model Aplicacion.FrontEnd.Pages.DetalleSalidaModel
+@{
+}
+<h2>Detalle Salida</h2>
+<div>
+    
+        <div>
+            Codigo: @Model.SalidaDetalle.Id
+        </div>
+        <div>
+            Fecha y Hora: @Model.SalidaDetalle.FechaHora
+        </div>
+        <div>
+            Modelo Vehiculo: @Model.SalidaDetalle.Vehiculo.Modelo
+        </div>
+        <div>
+            Placa Vehiculo: @Model.SalidaDetalle.Vehiculo.Placa
+        </div>
+        <div>
+            Color Vehiculo: @Model.SalidaDetalle.Vehiculo.Color
+        </div>
+        <div>
+            Cedula del Conductor: @Model.SalidaDetalle.Conductor.Cedula
+        <div>
+            Nombre del Conductor: @Model.SalidaDetalle.Conductor.Nombre @Model.SalidaDetalle.Conductor.Apellido
+        </div>
+        <div>
+            Celular del Conductor: @Model.SalidaDetalle.Conductor.Celular
+        </div>
+        <div>
+            Producto que Transporta: @Model.SalidaDetalle.Producto.Nombre 
+        </div>
+ 
+</div>
+<div><a href="./ListaSalida">Menu Principal</a></div>

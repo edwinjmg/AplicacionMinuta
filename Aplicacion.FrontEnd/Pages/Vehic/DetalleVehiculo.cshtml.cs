@@ -15,7 +15,7 @@ namespace Aplicacion.FrontEnd.Pages
             VehiculoDetalle = _repoVehiculo.MostrarVehiculo(vehiculoId); //repositorio.GetSaludoId(saludoID);
             if (VehiculoDetalle == null)
             {
-                return RedirectToPage("./Lista");
+                return RedirectToPage("./ListaVehiculo");
             }
             else
                 return Page();

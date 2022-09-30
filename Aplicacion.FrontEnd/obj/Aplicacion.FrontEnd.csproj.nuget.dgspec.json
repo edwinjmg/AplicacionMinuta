@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\JAVIER\\PROGRAMACION\\CURSO MINTIC\\Ciclo3\\Programacion\\Proyecto\\Aplicacion\\Aplicacion.FrontEnd\\Aplicacion.FrontEnd.csproj": {}
+    "D:\\JAVIER\\PROGRAMACION\\CURSO MINTIC\\Ciclo3\\Programacion\\Proyecto\\Aplicacion\\Aplicacion.frontEnd\\Aplicacion.FrontEnd.csproj": {}
   },
   "projects": {
     "D:\\JAVIER\\PROGRAMACION\\CURSO MINTIC\\Ciclo3\\Programacion\\Proyecto\\Aplicacion\\Aplicacion.Dominio\\Aplicacion.Dominio.csproj": {
@@ -57,14 +57,14 @@
         }
       }
     },
-    "D:\\JAVIER\\PROGRAMACION\\CURSO MINTIC\\Ciclo3\\Programacion\\Proyecto\\Aplicacion\\Aplicacion.FrontEnd\\Aplicacion.FrontEnd.csproj": {
+    "D:\\JAVIER\\PROGRAMACION\\CURSO MINTIC\\Ciclo3\\Programacion\\Proyecto\\Aplicacion\\Aplicacion.frontEnd\\Aplicacion.FrontEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\JAVIER\\PROGRAMACION\\CURSO MINTIC\\Ciclo3\\Programacion\\Proyecto\\Aplicacion\\Aplicacion.FrontEnd\\Aplicacion.FrontEnd.csproj",
+        "projectUniqueName": "D:\\JAVIER\\PROGRAMACION\\CURSO MINTIC\\Ciclo3\\Programacion\\Proyecto\\Aplicacion\\Aplicacion.frontEnd\\Aplicacion.FrontEnd.csproj",
         "projectName": "Aplicacion.FrontEnd",
-        "projectPath": "D:\\JAVIER\\PROGRAMACION\\CURSO MINTIC\\Ciclo3\\Programacion\\Proyecto\\Aplicacion\\Aplicacion.FrontEnd\\Aplicacion.FrontEnd.csproj",
+        "projectPath": "D:\\JAVIER\\PROGRAMACION\\CURSO MINTIC\\Ciclo3\\Programacion\\Proyecto\\Aplicacion\\Aplicacion.frontEnd\\Aplicacion.FrontEnd.csproj",
         "packagesPath": "C:\\Users\\Ingenieria Medina\\.nuget\\packages\\",
-        "outputPath": "D:\\JAVIER\\PROGRAMACION\\CURSO MINTIC\\Ciclo3\\Programacion\\Proyecto\\Aplicacion\\Aplicacion.FrontEnd\\obj\\",
+        "outputPath": "D:\\JAVIER\\PROGRAMACION\\CURSO MINTIC\\Ciclo3\\Programacion\\Proyecto\\Aplicacion\\Aplicacion.frontEnd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ingenieria Medina\\AppData\\Roaming\\NuGet\\NuGet.Config"

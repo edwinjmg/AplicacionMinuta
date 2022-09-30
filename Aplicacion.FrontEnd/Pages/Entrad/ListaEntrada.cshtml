@@ -1,0 +1,32 @@
+﻿@page
+@model Aplicacion.FrontEnd.Pages.ListaEntradaModel
+@{
+}
+<h1>Registro de Entradas</h1>
+<a class="btn btn-primary" asp-page="./CrearEntrada">
+    <i class="fa-regular fa-square-plus">Agregar Entrada</i>
+</a>
+<table class="table">
+    <th>
+            <th>Fecha Hora</th>
+            <th>Vehiculo</th>
+            <th>Conductor</th>
+            <th>Producto</th>
+    </th>
+    @foreach (var entrada in Model.entrad)
+    {
+        <tr>
+            <td>@entrada.Id</td>
+            <td>@entrada.FechaHora</td>
+            <td>@entrada.Vehiculo.Placa</td>
+            <td>@entrada.Conductor.Nombre @entrada.Conductor.Apellido</td>
+            <td>@entrada.Producto.Nombre</td>
+            <td>
+                <a class="btn btn-outline-success" asp-page="./DetalleEntrada" asp-route-EntradaId="@entrada.Id">
+                    <i class="fas fa-info-circle"></i>
+                </a>                
+            </td>
+            
+        </tr>
+    }
+</table>

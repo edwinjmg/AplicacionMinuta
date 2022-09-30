@@ -2,3 +2,37 @@
 @model Aplicacion.FrontEnd.Pages.EditarProductoModel
 @{
 }
+<h1>Crear</h1>
+<h2>Producto</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                @* <label asp-for="ProductoDetalle.Id" class="control-label"></label> *@
+                <input type= "hidden" asp-for="ProductoDetalle.Id" class="form-control" />
+                @* <span asp-validation-for="ProductoDetalle.Id" class="text-danger"></span> *@
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductoDetalle.Nombre" class="control-label"></label>
+                <input asp-for="ProductoDetalle.Nombre" class="form-control" />
+                <span asp-validation-for="ProductoDetalle.Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductoDetalle.Precio" class="control-label"></label>
+                <input asp-for="ProductoDetalle.Precio" class="form-control" />
+                <span asp-validation-for="ProductoDetalle.Precio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductoDetalle.Cantidad" class="control-label"></label>
+                <input asp-for="ProductoDetalle.Cantidad" class="form-control" />
+                <span asp-validation-for="ProductoDetalle.Cantidad" class="text-danger"></span>
+            </div>
+            <div><br></div>
+            <div class="form-group">
+                <input type="submit" value="Grabar" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>

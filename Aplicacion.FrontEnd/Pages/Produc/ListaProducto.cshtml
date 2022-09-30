@@ -2,3 +2,33 @@
 @model Aplicacion.FrontEnd.Pages.ListaProductoModel
 @{
 }
+<h1>Productos</h1>
+<a class="btn btn-primary" asp-page="./EditarProducto">
+    <i class="fa-regular fa-square-plus">Agregar Producto</i>
+</a>
+<table class="table">
+    <th>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+    </th>
+    @foreach (var item in Model.produc)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Nombre</td>
+            <td>@item.Precio</td>
+            <td>@item.Cantidad</td>
+            <td>
+                <a class="btn btn-outline-success" asp-page="./DetalleProducto" asp-route-ProductoId="@item.Id">
+                    <i class="fas fa-info-circle"></i>
+                </a>
+                <a class="btn btn-outline-success" asp-page="./EditarProducto" asp-route-ProductoId="@item.Id">
+                    <i class="fa-regular fa-pen-to-square"></i>
+                </a>
+                
+            </td>
+            
+        </tr>
+    }
+</table>

@@ -2,9 +2,11 @@
 @model Aplicacion.FrontEnd.Pages.ListaEntradaModel
 @{
 }
-<h1>Registro de Entradas</h1>
-<a class="btn btn-primary" asp-page="./CrearEntrada">
-    <i class="fa-regular fa-square-plus">Agregar Entrada</i>
+<div class="row">
+    <div class="p-3 mb-2 bg-light text-white">
+<h1 class="text-secondary">Registro de Entradas</h1>
+<a class="btn btn-success" asp-page="./CrearEntrada">
+    <i class="fa-regular fa-square-plus"></i><em> NUEVA ENTRADA</em>
 </a>
 <table class="table">
     <th>
@@ -30,3 +32,5 @@
         </tr>
     }
 </table>
+    </div>
+</div>

@@ -2,9 +2,11 @@
 @model Aplicacion.FrontEnd.Pages.ListaVehiculoModel
 @{
 }
-<h1>Vehiculos</h1>
-<a class="btn btn-primary" asp-page="./EditarVehiculo">
-    <i class="fa-regular fa-square-plus">Agregar Vehiculo</i>
+<div class="row">
+    <div class="p-3 mb-2 bg-light text-white">
+<h1 class="text-secondary">Vehiculos</h1>
+<a class="btn btn-success " asp-page="./EditarVehiculo">
+    <i class="fa-regular fa-square-plus text-reset"></i><em> NUEVO VEHICULO</em>
 </a>
 <table class="table">
     <th>
@@ -32,3 +34,4 @@
         </tr>
     }
 </table>
+</div>

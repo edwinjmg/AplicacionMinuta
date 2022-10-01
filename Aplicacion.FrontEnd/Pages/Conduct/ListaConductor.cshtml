@@ -2,9 +2,11 @@
 @model Aplicacion.FrontEnd.Pages.ListaConductorModel
 @{
 }
-<h1>Conductores</h1>
-<a class="btn btn-primary" asp-page="./EditarConductor">
-    <i class="fa-regular fa-square-plus">Agregar Conductor</i>
+<div class="row">
+    <div class="p-3 mb-2 bg-light text-white">
+<h1 class="text-secondary">Conductores</h1>
+<a class="btn btn-success" asp-page="./EditarConductor">
+    <i class="fa-regular fa-square-plus"></i><em> NUEVO CONDUCTOR</em>
 </a>
 <table class="table">
     <th>
@@ -35,3 +37,5 @@
         </tr>
     }
 </table>
+    </div>
+</div>

@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Aplicacion.FrontEnd.styles.css" asp-append-version="true" />
+<style> 
+body {
+  @* background-image: url("https://www.gifsanimados.org/data/media/1617/camion-imagen-animada-0013.gif"); *@
+  background-image: url("https://cdn.pixabay.com/photo/2019/08/15/17/56/production-4408573_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+}
+</style>
 </head>
 <body>
     <header>
@@ -21,19 +30,19 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Vehic/ListaVehiculo">Vehiculos</a>
+                            <a class="btn btn-outline-success" asp-area="" asp-page="/Vehic/ListaVehiculo">Vehiculos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Conduct/ListaConductor">Conductores</a>
+                            <a class="btn btn-outline-success" asp-area="" asp-page="/Conduct/ListaConductor">Conductores</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Produc/ListaProducto">Productos</a>
+                            <a class="btn btn-outline-success" asp-area="" asp-page="/Produc/ListaProducto">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Entrad/ListaEntrada">Entradas</a>
+                            <a class="btn btn-outline-success" asp-area="" asp-page="/Entrad/ListaEntrada">Entradas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Salid/ListaSalida">Salidas</a>
+                            <a class="btn btn-outline-success" asp-area="" asp-page="/Salid/ListaSalida">Salidas</a>
                         </li>
                     </ul>
                 </div>
@@ -46,9 +55,9 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - Control Vehicular - <a asp-area="" asp-page="/Home">Pantalla Principal</a>
+    <footer class="border-top footer text-muted bg-light text-dark">
+        <div class="container text-center">
+            &copy; 2022 - Control Vehicular - Diplomado MINTIC - UCALDAS - Programadores 0.22 -<a asp-area="" asp-page="/Home">  Pantalla Principal</a>
         </div>
     </footer>
 

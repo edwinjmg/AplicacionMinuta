@@ -2,59 +2,67 @@
 @model Aplicacion.FrontEnd.Pages.CrearSalidaModel
 @{
 }
-<blockquote class="blockquote text-center">
-<h1>Registar Salida</h1>
-<hr />
-<div >
-    <div class="col-md-4">
-        <form method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">  
-                @* <input type= "hidden" asp-for="SalidaDetalle.Id" class="form-control" />    *@
+<div class="row">
+    <div class="p-3 mb-2 bg-secondary text-white">
+        <blockquote class="blockquote text-center">
+            <h1>Registar Salida</h1>
+            <hr />
+            <div class="row">
+                <div class="col-md-4">
+                    <form method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            @* <input type= "hidden" asp-for="SalidaDetalle.Id" class="form-control" /> *@
+                        </div>
+                        <div class="form-group">
+                            <blockquote class="blockquote text-center">
+                                @* <label asp-for="SalidaDetalle.FechaHora"
+                                    class="control-label">@DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");</label>*@
+                                <h2 class="h2">@DateTime.Now.ToString("dddd, d 'de' MMMM 'de' yyyy")</h2>
+                                <h2 class="h2">@DateTime.Now.ToString("hh:mm:ss tt ")</h2>
+                                <br>
+                            </blockquote>
+                        </div>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text">Vehiculo</label>
+                            <select class="form-select" name="vehiculoId" required>
+                                <option value="0">Seleccione la Placa...</option>
+                                @foreach (var vehiculo in Model.vehic)
+                                {
+                                    <option value="@vehiculo.Id">@vehiculo.Placa</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text">Conductor</label>
+                            <select class="form-select" name="conductorId" required>
+                                <option value="0">Seleccione el Conductor...</option>
+                                @foreach (var conductor in Model.conduc)
+                                {
+                                    <option value="@conductor.Id">@conductor.Nombre @conductor.Apellido</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text">Producto</label>
+                            <select class="form-select" name="productoId" required>
+                                <option value="0">Seleccione el Producto...</option>
+                                @foreach (var producto in Model.produc)
+                                {
+                                    <option value="@producto.Id">@producto.Nombre</option>
+                                }
+                            </select>
+                        </div>
+                        <div><br></div>
+                        <div class="form-group">
+                            <input type="submit" value="Grabar" class="btn btn-success" />
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-8">
+                    <img src="~/images/Camion.jpg" alt="Camion Saliendo" width="100%" />
+                </div>
             </div>
-            <div class="form-group">
-                <blockquote class="blockquote text-center">
-                @* <label asp-for="SalidaDetalle.FechaHora" class="control-label">@DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");</label>*@ 
-                <h2 class="h2">@DateTime.Now.ToString("dddd, d 'de' MMMM 'de' yyyy")</h2>
-                <h2 class="h2">@DateTime.Now.ToString("hh:mm:ss tt ")</h2>
-                <br>
-                </blockquote>
-            </div>
-            <div class="input-group mb-3">
-                <label class="input-group-text" >Vehiculo</label>
-                <select class="form-select" name="vehiculoId" required>
-                    <option value="0">Seleccione la Placa...</option>
-                    @foreach (var vehiculo in Model.vehic)
-                    {
-                        <option value="@vehiculo.Id">@vehiculo.Placa</option>
-                    }
-                </select>
-            </div>
-            <div class="input-group mb-3">
-                <label class="input-group-text" >Conductor</label>
-                <select class="form-select" name="conductorId" required>
-                    <option value="0">Seleccione el Conductor...</option>
-                    @foreach (var conductor in Model.conduc)
-                    {
-                    <option value="@conductor.Id">@conductor.Nombre @conductor.Apellido</option>
-                    }
-                </select>
-            </div>
-            <div class="input-group mb-3">
-                <label  class="input-group-text" >Producto</label>
-                <select  class="form-select" name="productoId" required>
-                    <option value="0">Seleccione el Producto...</option>
-                   @foreach (var producto in Model.produc)
-                {
-                    <option value="@producto.Id">@producto.Nombre</option>
-                }
-                </select>
-            </div>
-            <div><br></div>
-            <div class="form-group">
-                <input type="submit" value="Grabar" class="btn btn-primary"/>
-            </div>
-        </form>
+        </blockquote>
     </div>
 </div>
-</blockquote>

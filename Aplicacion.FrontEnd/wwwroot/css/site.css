@@ -14,6 +14,9 @@ html {
 }
 
 body {
-  background-image: url(/Aplicacion.FrontEnd/Pages/images/Camion.jpg);
+  background-image: url("https://mdn.mozillademos.org/files/11991/startransparent.gif");
   margin-bottom: 60px;
+}
+#fondo{
+  background-image: url("D:\JAVIER\PROGRAMACION\CURSO MINTIC\Ciclo3\Programacion\Proyecto\Aplicacion\Aplicacion.FrontEnd\Pages\images\Camion.jpg");
 }
